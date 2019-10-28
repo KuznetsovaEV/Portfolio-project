@@ -1,13 +1,24 @@
 @import "vars.scss";
 
+/*Block*/
+@import "blocks/container.scss";
+@import "blocks/header.scss";
+@import "blocks/user.scss";
+@import "blocks/nav.scss";
+
+html {
+  font-size: 15px;
+}
+
 body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
   color: $black;
 }
 
-p {
-  color: green;
-}
-
-.header {
-  color: pink;
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
 }

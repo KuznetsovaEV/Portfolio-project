@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  height: 100%;
+}
+
+.nav__link {
+  padding: 0.66rem 2rem;
+  font-size: 0.93rem;
+  color: $black;
+  text-transform: uppercase;
+  font-weight: 700px;
+  text-decoration: none;
+
+  border: 2px solid transparent;
+  border-radius: 20px;
+
+  &:hover,
+  &.activ  {
+    border-color: $black;
+  }
+}
