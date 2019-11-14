@@ -80,6 +80,20 @@ img {
 .intro__content {
   width: 50%; }
 
+.intro__subtitle {
+  font-size: 2.13rem;
+  color: #2B2A2C;
+  font-weight: 200; }
+
+.intro__title {
+  margin-bottom: 5px;
+  font-size: 3rem;
+  color: #2B2A2C;
+  font-weight: 700; }
+
+.intro__text {
+  font-size: 1.2rem; }
+
 .intro__photo {
   width: 50%; }
 
