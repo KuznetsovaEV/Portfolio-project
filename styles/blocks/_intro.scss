@@ -1,12 +1,11 @@
-.intro {
-  
-}
 
 .intro__inner {
   display: flex;
   padding-bottom: 120px;
   padding-top: 100px;
   border-bottom: 1px solid $gray;
+  background: url("../images/symbols.png") right bottom no-repeat;
+  position: relative;
 }
 
 .intro__content {
@@ -27,9 +26,13 @@
 }
 
 .intro__text {
+  margin-bottom: 25px;
   font-size: 1.2rem;
   }
 
   .intro__photo {
-    width: 50%;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    z-index: 1;
 }

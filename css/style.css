@@ -75,7 +75,12 @@ img {
       display: none; }
 
 .intro__inner {
-  display: flex; }
+  display: flex;
+  padding-bottom: 120px;
+  padding-top: 100px;
+  border-bottom: 1px solid #6A696B;
+  background: url("../images/symbols.png") right bottom no-repeat;
+  position: relative; }
 
 .intro__content {
   width: 50%; }
@@ -92,10 +97,48 @@ img {
   font-weight: 700; }
 
 .intro__text {
+  margin-bottom: 25px;
   font-size: 1.2rem; }
 
 .intro__photo {
-  width: 50%; }
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  z-index: 1; }
+
+.social {
+  display: flex;
+  margin-bottom: 42px; }
+
+.social__link {
+  margin-right: 10px;
+  text-decoration: none; }
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.1rem 1.8rem;
+  min-width: 170px;
+  border: 1px solid #6A696B;
+  border-radius: 30px;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.06rem;
+  line-height: 1.1;
+  color: #2B2A2C;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color .2s linear, color .2s linear, box-shadow .2s linear; }
+  .btn:focus {
+    outline: none; }
+  .btn:hover {
+    background-color: #2B2A2C;
+    color: #ffffff;
+    box-shadow: 2px 2px 10px; }
+  .btn + .btn {
+    margin-left: 1rem; }
 
 html {
   font-size: 15px; }
